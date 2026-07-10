@@ -604,26 +604,23 @@ p{ color: var(--near-black); }
   flex-wrap:wrap;
   justify-content:center;
   align-items:center;
-  gap: 18px;
+  gap: 24px 48px;
 }
 .partner-logo{
-  background: var(--white);
-  border-radius: 10px;
-  padding: 14px 22px;
-  height: 78px;
-  width: 156px;
+  height: 60px;
   display:flex;
   align-items:center;
   justify-content:center;
-  transition: transform .35s ease, box-shadow .35s ease;
+  opacity: 0.88;
+  transition: transform .35s ease, opacity .35s ease;
 }
 .partner-logo:hover{
   transform: translateY(-4px);
-  box-shadow: 0 14px 30px rgba(0,0,0,0.28);
+  opacity: 1;
 }
 .partner-logo img{
-  max-width: 100%;
   max-height: 100%;
+  max-width: 150px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -707,5 +704,6 @@ p{ color: var(--near-black); }
   .brand-logo{ height: 84px; }
   .site-header.scrolled .brand-logo{ height: 62px; }
   .footer-partners{ padding: 60px 0 40px; }
-  .partner-logo{ width: 128px; height: 66px; padding: 10px 16px; }
+  .partner-logo{ height: 46px; }
+  .partner-logo img{ max-width: 120px; }
 }
