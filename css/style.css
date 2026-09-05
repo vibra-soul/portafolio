@@ -247,8 +247,24 @@ p{ color: var(--near-black); }
   font-size: clamp(18px, 2.4vw, 26px);
   font-weight: 300;
   max-width: 620px;
-  margin: 0 auto 30px;
+  margin: 0 auto 22px;
   color: var(--white);
+}
+
+.hero-lead{
+  font-size: 15.5px;
+  line-height: 1.7;
+  max-width: 620px;
+  margin: 0 auto 16px;
+  color: rgba(250,247,242,0.88);
+}
+
+.hero-explainer{
+  font-size: 13.5px;
+  line-height: 1.7;
+  max-width: 560px;
+  margin: 0 auto 30px;
+  color: rgba(250,247,242,0.62);
 }
 
 .hero-stats{
@@ -337,6 +353,14 @@ p{ color: var(--near-black); }
 .split-reverse > *{ direction: ltr; }
 
 .split-text p{ margin-bottom: 18px; max-width: 480px; }
+.split-text .lead-line{
+  font-family: var(--font-serif);
+  font-size: 20px;
+  font-style: italic;
+  color: var(--terracotta);
+  max-width: 480px;
+  margin-bottom: 22px;
+}
 .split-text .role{
   font-size: 13px;
   letter-spacing: 0.1em;
@@ -397,6 +421,12 @@ p{ color: var(--near-black); }
 }
 .step h3{ font-size: 19px; margin-bottom: 6px; }
 .step p{ font-size: 15px; max-width: 420px; }
+.step-highlight{
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--terracotta-light);
+  margin-top: 8px;
+}
 
 /* ============ CARDS (experiences) ============ */
 .cards-grid{
@@ -431,29 +461,19 @@ p{ color: var(--near-black); }
 .card h3{ margin-top: 6px; }
 .card p{ font-size: 14.5px; color: var(--grey); }
 
-/* ============ CONTEXT LIST ============ */
-.context-list{
-  list-style:none;
-  display:grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 18px 60px;
-  max-width: 760px;
-  margin: 0 auto;
-}
-.context-list li{
+/* ============ CONTEXT INLINE LIST ============ */
+.context-inline{
   font-family: var(--font-serif);
-  font-size: 20px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--line);
-  position:relative;
-  padding-left: 26px;
+  font-size: clamp(18px, 2.6vw, 24px);
+  text-align:center;
+  max-width: 880px;
+  margin: 0 auto;
+  line-height: 1.9;
 }
-.context-list li::before{
-  content:'✦';
-  position:absolute;
-  left:0; top:2px;
+.context-inline span{
   color: var(--terracotta);
-  font-size: 13px;
+  font-style: normal;
+  margin: 0 6px;
 }
 
 /* ============ CHECK LIST (diferenciales) ============ */
@@ -598,7 +618,16 @@ p{ color: var(--near-black); }
   padding: 80px 0 60px;
   border-bottom: 1px solid var(--line-light);
 }
-.footer-partners .eyebrow{ margin-bottom: 40px; }
+.footer-partners .eyebrow{ margin-bottom: 14px; }
+.footer-partners-lead{
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 18px;
+  text-align:center;
+  color: rgba(250,247,242,0.75);
+  max-width: 520px;
+  margin: 0 auto 40px;
+}
 .partners-grid{
   display:flex;
   flex-wrap:wrap;
@@ -701,7 +730,6 @@ p{ color: var(--near-black); }
 
   .section{ padding: 90px 0; }
   .cards-grid{ grid-template-columns: 1fr; }
-  .context-list{ grid-template-columns: 1fr; }
   .gallery-grid{ grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; }
   .gallery-grid img:nth-child(1), .gallery-grid img:nth-child(6){ grid-row: span 1; }
   .testimonial-content{ padding: 36px 24px; }
