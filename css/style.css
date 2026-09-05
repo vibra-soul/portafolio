@@ -556,18 +556,21 @@ p{ color: var(--near-black); }
 
 /* ============ CONTACT ============ */
 .contact-grid{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--line-light);
-  border: 1px solid var(--line-light);
+  display:flex;
+  flex-wrap:wrap;
+  border-top: 1px solid var(--line-light);
+  border-left: 1px solid var(--line-light);
 }
 .contact-item{
+  flex: 1 1 33.333%;
+  min-width: 240px;
   background: var(--black);
   padding: 34px 28px;
   display:flex;
   flex-direction:column;
   gap: 10px;
+  border-right: 1px solid var(--line-light);
+  border-bottom: 1px solid var(--line-light);
   transition: background .3s ease;
 }
 .contact-item:hover{ background: #201c19; }
@@ -679,7 +682,7 @@ p{ color: var(--near-black); }
   .split-reverse .split-media{ order:-1; }
   .cards-grid{ grid-template-columns: repeat(2, 1fr); }
   .gallery-grid{ grid-template-columns: repeat(3, 1fr); grid-auto-rows: 180px; }
-  .contact-grid{ grid-template-columns: 1fr; }
+  .contact-item{ flex-basis: 100%; }
 }
 
 @media (max-width: 760px){
