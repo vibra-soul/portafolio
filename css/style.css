@@ -213,8 +213,7 @@ p{ color: var(--near-black); }
 /* ============ HERO ============ */
 .hero{
   position:relative;
-  height: 100vh;
-  min-height: 640px;
+  min-height: 100vh;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -239,6 +238,7 @@ p{ color: var(--near-black); }
   z-index:2;
   text-align:center;
   color: var(--white);
+  padding: 170px 0 130px;
 }
 .hero .eyebrow{ color: var(--terracotta-light); }
 
