@@ -405,12 +405,24 @@ p{ color: var(--near-black); }
   margin-top: 8px;
 }
 
+.frase-highlight{
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(20px, 2.8vw, 30px);
+  text-align:center;
+  color: var(--terracotta);
+  max-width: 620px;
+  line-height: 1.4;
+  margin: 70px auto 0;
+}
+
 /* ============ CARDS (experiences) ============ */
 .cards-grid{
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 46px 34px;
 }
+.cards-grid-4{ grid-template-columns: repeat(2, 1fr); }
 .card{ position:relative; }
 .card-media{
   border-radius: 4px;
@@ -453,6 +465,32 @@ p{ color: var(--near-black); }
   margin: 0 6px;
 }
 
+/* ============ DYNAMICS TAGS ============ */
+.dynamics-tags{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap: 14px;
+  margin-top: 48px;
+}
+.dynamics-tags span{
+  padding: 12px 24px;
+  border: 1px solid var(--line);
+  border-radius: 40px;
+  font-family: var(--font-serif);
+  font-size: 16px;
+  color: var(--near-black);
+  transition: border-color .3s ease, color .3s ease;
+}
+.dynamics-tags span:hover{
+  border-color: var(--terracotta);
+  color: var(--terracotta);
+}
+.section-dark .dynamics-tags span{
+  border-color: var(--line-light);
+  color: var(--white);
+}
+
 /* ============ CHECK LIST (diferenciales) ============ */
 .check-list{ list-style:none; margin-top: 32px; display:flex; flex-direction:column; gap:16px; }
 .check-list li{
@@ -472,6 +510,41 @@ p{ color: var(--near-black); }
   font-weight: 600;
   line-height: 20px;
   text-align:center;
+}
+
+/* ============ CASE STUDIES (resultados) ============ */
+.case-study{ margin-top: 90px; }
+.case-study .split-media{ margin-bottom: 0; }
+.case-tags{
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--terracotta);
+  margin-bottom: 26px;
+}
+.case-block{ margin-bottom: 22px; }
+.case-block:last-child{ margin-bottom: 0; }
+.case-label{
+  display:block;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin-bottom: 6px;
+}
+.case-block p{ margin-bottom: 0; max-width: 480px; }
+
+/* ============ MARÍA QUOTE ============ */
+.maria-quote{
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--terracotta);
+  border-left: 2px solid var(--terracotta);
+  padding-left: 20px;
+  margin-top: 28px;
+  max-width: 460px;
 }
 
 /* ============ GALLERY ============ */
@@ -586,6 +659,7 @@ p{ color: var(--near-black); }
   color: var(--white);
 }
 .center{ text-align:center; }
+.contact-actions{ display:flex; flex-wrap:wrap; justify-content:center; gap: 18px; }
 
 /* ============ EMPRESAS ALIADAS ============ */
 .partners-block{
@@ -620,6 +694,8 @@ p{ color: var(--near-black); }
   transform: translateY(-4px);
   opacity: 1;
 }
+.partner-logo-wide{ height: 76px; }
+.partner-logo-wide img{ max-width: 220px; }
 .partner-logo img{
   max-height: 100%;
   max-width: 150px;
