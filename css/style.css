@@ -283,7 +283,9 @@ p{ color: var(--near-black); }
 
 /* ============ BUTTONS ============ */
 .btn{
-  display:inline-block;
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
   padding: 15px 36px;
   font-size: 12.5px;
   letter-spacing: 0.14em;
@@ -292,6 +294,7 @@ p{ color: var(--near-black); }
   transition: all .35s ease;
   cursor:pointer;
 }
+.btn svg{ flex-shrink:0; }
 .btn-outline{
   border: 1px solid rgba(250,247,242,0.6);
   color: var(--white);
