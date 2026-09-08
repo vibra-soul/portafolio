@@ -808,4 +808,14 @@ p{ color: var(--near-black); }
   .partners-block{ padding: 70px 0; }
   .partner-logo{ height: 46px; }
   .partner-logo img{ max-width: 120px; }
+
+  .footer-inner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 22px;
+    padding: 40px 0;
+  }
+  .site-footer p{ order: 1; }
 }
