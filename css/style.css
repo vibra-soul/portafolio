@@ -444,7 +444,7 @@ p{ color: var(--near-black); }
 .card-index{
   font-family: var(--font-serif);
   color: var(--terracotta);
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.08em;
 }
 .card h3{ margin-top: 6px; }
