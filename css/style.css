@@ -126,13 +126,13 @@ p{ color: var(--near-black); }
 }
 
 .brand-logo{
-  height: 118px;
+  height: 132px;
   width: auto;
   display:block;
   transition: height .4s ease;
 }
 .site-header.scrolled .brand-logo{
-  height: 82px;
+  height: 92px;
 }
 
 .hero-logo-img{
@@ -728,7 +728,7 @@ p{ color: var(--near-black); }
   padding: 28px 0;
 }
 .footer-logo{
-  height: 42px;
+  height: 50px;
   width: auto;
 }
 .site-footer p{
@@ -806,8 +806,8 @@ p{ color: var(--near-black); }
   .dynamics-tags{ margin-top: 32px; gap: 10px; }
   .dynamics-tags span{ padding: 10px 18px; font-size: 15px; }
 
-  .brand-logo{ height: 84px; }
-  .site-header.scrolled .brand-logo{ height: 62px; }
+  .brand-logo{ height: 92px; }
+  .site-header.scrolled .brand-logo{ height: 68px; }
   .partners-block{ padding: 70px 0; }
   .partner-logo{ height: 46px; }
   .partner-logo img{ max-width: 120px; }

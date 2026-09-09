@@ -1,3 +1,7 @@
+// Always land on the hero/inicio when the page is opened directly (no anchor in the URL)
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+if (!window.location.hash) window.scrollTo(0, 0);
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Year in footer
