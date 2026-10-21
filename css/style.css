@@ -226,7 +226,7 @@ p{ color: var(--near-black); }
 .main-nav a{ white-space: nowrap; }
 @media (min-width: 761px){
   .header-inner{ gap: 16px; }
-  .main-nav{ flex: 1; justify-content: flex-start; gap: clamp(26px, 3.2vw, 56px); margin-left: 0; padding-left: 0; }
+  .main-nav{ flex: 1; justify-content: flex-start; gap: clamp(26px, 3.2vw, 56px); margin-left: clamp(40px, 5vw, 90px); padding-left: 0; }
   .main-nav a{ font-size: clamp(13px, 1.25vw, 16px); }
   .main-nav a.nav-cta{ padding: 9px 18px; }
 }
