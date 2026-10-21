@@ -929,3 +929,7 @@ p{ color: var(--near-black); }
   .method-duo{ max-width: 340px; }
 }
 #silent-experience .single-media{ object-position: center 55%; }
+#silent-experience .single-media{ max-width: 360px; margin: 0 auto; border-radius: 36px; aspect-ratio: 4/5; }
+@media (max-width: 760px){
+  #silent-experience .single-media{ max-width: 290px; border-radius: 30px; }
+}
