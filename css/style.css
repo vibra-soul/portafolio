@@ -933,3 +933,10 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   #silent-experience .single-media{ max-width: 290px; border-radius: 30px; }
 }
+
+/* Metodología: cuadrados redondeados */
+.method-circle{ border-radius: 30px; height: auto; }
+.method-circle-a{ width:66%; aspect-ratio: 1/1; border: 0; }
+.method-circle-b{ width:62%; aspect-ratio: 1/1; }
+.method-duo{ aspect-ratio: 1/1; }
+@media (max-width: 760px){ .method-circle{ border-radius: 22px; } }
