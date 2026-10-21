@@ -979,3 +979,7 @@ p{ color: var(--near-black); }
   .method-circle, .method-circle-a, .method-circle-b{ aspect-ratio: 4/3; }
 }
 #maria .single-media{ object-position: center 45%; }
+
+@media (max-width: 980px){
+  #maria .split-media{ order: 2; }
+}
