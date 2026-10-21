@@ -946,3 +946,9 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   #diferenciales .single-media{ max-width: 290px; border-radius: 30px; }
 }
+
+/* Resultados: imágenes más pequeñas y redondeadas */
+#resultados .single-media{ max-width: 340px; margin: 0 auto; border-radius: 34px; aspect-ratio: 4/5; }
+@media (max-width: 760px){
+  #resultados .single-media{ max-width: 280px; border-radius: 28px; }
+}
