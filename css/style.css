@@ -940,3 +940,9 @@ p{ color: var(--near-black); }
 .method-circle-b{ width:62%; aspect-ratio: 1/1; }
 .method-duo{ aspect-ratio: 1/1; }
 @media (max-width: 760px){ .method-circle{ border-radius: 22px; } }
+
+/* ¿Por qué Vibra Soul?: imagen más pequeña y redondeada */
+#diferenciales .single-media{ max-width: 360px; margin: 0 auto; border-radius: 36px; aspect-ratio: 4/5; }
+@media (max-width: 760px){
+  #diferenciales .single-media{ max-width: 290px; border-radius: 30px; }
+}
