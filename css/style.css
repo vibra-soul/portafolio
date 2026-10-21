@@ -995,3 +995,4 @@ p{ color: var(--near-black); }
   .partners-grid{ gap: 20px 16px; }
   .partner-logo, .partner-logo-wide{ width: calc(33.333% - 12px); max-width: 110px; height: 58px; }
 }
+#maria .split-media{ order: 2; }
