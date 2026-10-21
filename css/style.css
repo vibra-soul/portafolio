@@ -972,3 +972,9 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   #maria .single-media, #maria .single-media.portrait{ max-width: 290px; border-radius: 30px; }
 }
+
+/* Metodología (web): una foto encima de la otra */
+@media (min-width: 981px){
+  .method-duo{ grid-template-columns: 1fr; max-width: 400px; gap: 22px; }
+  .method-circle, .method-circle-a, .method-circle-b{ aspect-ratio: 4/3; }
+}
