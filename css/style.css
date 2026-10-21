@@ -906,3 +906,12 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   .que-hacemos-split .about-video{ max-width: 260px; max-height: 52vh; }
 }
+
+/* video Quiénes somos */
+#quienes-somos .about-video{ max-width: 380px; max-height: 70vh; margin: 0 auto; }
+@media (max-width: 980px){
+  #quienes-somos .about-video{ max-width: 300px; max-height: 58vh; }
+}
+@media (max-width: 760px){
+  #quienes-somos .about-video{ max-width: 260px; max-height: 52vh; }
+}
