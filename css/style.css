@@ -924,7 +924,7 @@ p{ color: var(--near-black); }
   border: 6px solid var(--black);
 }
 .method-circle-a{ width:72%; aspect-ratio:1/1; top:0; left:0; object-position: 35% 60%; }
-.method-circle-b{ width:60%; aspect-ratio:1/1; bottom:0; right:0; object-position: 60% 55%; border-color: var(--terracotta); }
+.method-circle-b{ width:68%; aspect-ratio:1/1; bottom:0; right:0; object-position: 60% 55%; border:0; }
 @media (max-width: 760px){
   .method-duo{ max-width: 340px; }
 }
