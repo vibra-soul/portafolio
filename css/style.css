@@ -966,3 +966,9 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   .method-circle, .method-circle-a, .method-circle-b{ border-radius: 20px; }
 }
+
+/* María Isabel: foto más pequeña y redondeada */
+#maria .single-media{ max-width: 360px; margin: 0 auto; border-radius: 36px; aspect-ratio: 4/5; }
+@media (max-width: 760px){
+  #maria .single-media, #maria .single-media.portrait{ max-width: 290px; border-radius: 30px; }
+}
