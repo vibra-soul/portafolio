@@ -978,3 +978,4 @@ p{ color: var(--near-black); }
   .method-duo{ grid-template-columns: 1fr; max-width: 400px; gap: 22px; }
   .method-circle, .method-circle-a, .method-circle-b{ aspect-ratio: 4/3; }
 }
+#maria .single-media{ object-position: center 45%; }
