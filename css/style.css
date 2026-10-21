@@ -928,3 +928,4 @@ p{ color: var(--near-black); }
 @media (max-width: 760px){
   .method-duo{ max-width: 340px; }
 }
+#silent-experience .single-media{ object-position: center 55%; }
